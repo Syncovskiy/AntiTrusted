@@ -10,6 +10,12 @@
   <img alt="CMake" src="https://img.shields.io/badge/CMake-3.20%2B-064F8C?style=flat-square&logo=cmake&logoColor=white">
 </p>
 
+<p align="center">
+  <a href="https://github.com/Syncovskiy/AntiTrusted/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/Syncovskiy/AntiTrusted/total?style=flat-square&logo=github"></a>
+  <a href="https://github.com/Syncovskiy/AntiTrusted/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/Syncovskiy/AntiTrusted?include_prereleases&style=flat-square"></a>
+  <a href="https://github.com/Syncovskiy/AntiTrusted"><img alt="License" src="https://img.shields.io/github/license/Syncovskiy/AntiTrusted?style=flat-square"></a>
+</p>
+
 AntiTrusted помогает вернуть доступ к файлам и каталогам, у которых сломаны права доступа или владелец. Основной сценарий - очистка назойливых папок и файлов, заблокированных системой или владельцем `TrustedInstaller`: утилита сначала возвращает вам права, после чего объект можно удалить, переместить или изменить штатными средствами Windows.
 
 Утилита сохраняет исходный security descriptor в резервную копию, назначает текущего пользователя владельцем и выдает ему полный доступ. При необходимости состояние можно восстановить обратно.
