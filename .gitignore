@@ -1,0 +1,39 @@
+# Build directories
+build/
+out/
+cmake-build-*/
+
+# Visual Studio / MSVC
+.vs/
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.ipdb
+*.iobj
+*.tlog
+*.recipe
+*.vcxproj.user
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Release binaries and local artifacts
+*.exe
+*.dll
+*.lib
+*.exp
+*.sha256
+
+# Local agent/tooling state
+.agents/
+
+# OS/editor noise
+Thumbs.db
+Desktop.ini
+*.tmp
+*.log
